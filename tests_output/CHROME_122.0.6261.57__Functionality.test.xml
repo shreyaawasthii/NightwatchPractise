@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="4">
+
+  <testsuite name="Functionality.test"
+    errors="1" failures="0" hostname="" id="" package="Functionality.test" skipped="0"
+    tests="4" time="131.6" timestamp="">
+  
+    <testcase name="Verify that the elements of HomePage are visible" classname="Functionality.test" time="9.171" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify that the elements of contact us page are working fine" classname="Functionality.test" time="17.68" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify that the search feature is working" classname="Functionality.test" time="16.09" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify that the user is able to purchase a product successfully" classname="Functionality.test" time="22.85" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    <error message="done() callback timeout of 20000ms was reached while executing &#34;beforeEach&#34;. Make sure to call the done() callback when the operation finishes." type="error"><![CDATA[
+    TimeoutError: done() callback timeout of 20000ms was reached while executing &#34;beforeEach&#34;. Make sure to call the done() callback when the operation finishes.
+    at Timeout.&lt;anonymous&gt; (/home/knoldus/Desktop/NightwatchPractice/node_modules/nightwatch/lib/utils/timed-callback.js:52:19)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       TimeoutError
+   done() callback timeout of 20000ms was reached while executing &#34;beforeEach&#34;. Make sure to call the done() callback when the operation finishes.
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

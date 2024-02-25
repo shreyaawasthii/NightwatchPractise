@@ -1,0 +1,17 @@
+{
+  "name": "nightwatchpractice",
+  "version": "1.0.0",
+  "description": "first nightwatch practice",
+  "main": "first.js",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "author": "Shreya",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^121.0.2",
+    "geckodriver": "^4.3.2",
+    "nightwatch": "^3.4.1",
+    "nightwatch-api": "^3.0.2"
+  }
+}
