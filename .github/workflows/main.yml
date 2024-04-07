@@ -20,6 +20,7 @@ jobs:
 
       - name: Install Dependencies
         run: npm install --legacy-peer-deps
+        run: npm install chromedriver
 
       - name: Run Nightwatch Tests
         run: npx nightwatch
