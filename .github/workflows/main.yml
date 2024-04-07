@@ -19,7 +19,7 @@ jobs:
           node-version: '21'
 
       - name: Install Dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Run Nightwatch Tests
         run: npx nightwatch
