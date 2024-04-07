@@ -19,7 +19,7 @@ jobs:
           node-version: '21'
 
       - name: Install Dependencies
-        run: npm install
+        run: npm install --force
 
       - name: Run Nightwatch Tests
         run: npm run nightwatch
